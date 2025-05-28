@@ -4,11 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech Book Club</title>
-    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="../dist/output.css">
 </head>
-<body class="flex px-4 py-6">
-    <header>
-        <img src="assets/images/logo.svg" alt="logo">
-    </header>
+<body class="flex">
+    <section class="flex flex-col gap-12 px-4 py-6 bg-[#FAF5F3]">
+        <header>
+            <img src="assets/images/logo.svg" alt="logo">
+        </header>
+
+        <section class="flex flex-col gap-8">
+            <div class="flex flex-col gap-6">
+                <h1 class="text-[38px] font-bold font-martianMono bg-gradient-to-r from-[#FEA36F] to-[#062630] bg-clip-text text-transparent">
+                 Join the ultimate tech book club
+                </h1>
+
+                <p class="text-xl text-[#385159]">
+                    Turn your reading time into learning time with fellow tech enthusiasts.
+                     Get curated recommendations, join vibrant discussions, and level up your skills one chapter at a time.
+                </p>
+            </div>
+
+            <div class="review-container flex flex-col gap-5">
+
+                <div class="flex gap-4 justify-center items-center border-2 rounded-lg px-6 py-5 bg-[#FFF5EF] border-[#062630]">
+                    <p class="uppercase text-[#062630] font-bold">Review Membership Options</p>
+                    <img src="assets/images/icon-arrow-down.svg" alt="arrow-down">
+                </div>
+
+                <div class="flex justify-between">
+                    <img src="assets/images/image-avatars.webp" alt="image-avatars" class="w-[110px]">
+
+                    <div class="flex flex-col gap-1">
+                        <div class="flex gap-1">
+                            <img src="assets/images/icon-star.svg" alt="icon-star" class="w-[24px] h-[24px]">
+                            <img src="assets/images/icon-star.svg" alt="icon-star" class="w-[24px] h-[24px]">
+                            <img src="assets/images/icon-star.svg" alt="icon-star" class="w-[24px] h-[24px]">
+                            <img src="assets/images/icon-star.svg" alt="icon-star" class="w-[24px] h-[24px]">
+                            <img src="assets/images/icon-star.svg" alt="icon-star" class="w-[24px] h-[24px]">
+                        </div>
+                        <p>200+ developers joined already</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </section>
 </body>
 </html>
